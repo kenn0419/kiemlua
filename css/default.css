@@ -11,3 +11,16 @@
 body {
     font-family: "Inter", sans-serif;
 }
+
+.background {
+    background-image: url("/images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.color {
+    background: radial-gradient(circle, #a66bff, #c666ef, #dd62df, #ee61cf, #fb64bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xxx-large;
+}
