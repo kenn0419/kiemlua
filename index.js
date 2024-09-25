@@ -1,20 +1,20 @@
-// const arrowUp = document.querySelector('.arrow-up');
+const arrowUp = document.querySelector('.arrow-up');
 
 
-// window.addEventListener('scroll', function () {
-//     if (window.scrollY >= 1000) {
-//         arrowUp.style.display = 'block';
-//     } else {
-//         arrowUp.style.display = 'none';
-//     }
-// })
+window.addEventListener('scroll', function () {
+    if (window.scrollY >= 1000) {
+        arrowUp.style.display = 'block';
+    } else {
+        arrowUp.style.display = 'none';
+    }
+})
 
-// arrowUp.addEventListener('click', function () {
-//     window.scrollTo({
-//         top: 0,
-//         behavior: 'smooth'
-//     });
-// })
+arrowUp.addEventListener('click', function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+})
 
 document.addEventListener('DOMContentLoaded', function () {
     new Swiper('.mySwiper', {

@@ -1,14 +1,8 @@
 @media (max-width: 768px) {
-    .arrow-up {
-        bottom: 30%;
-        left: 30%;
-        right: 0%;
-    }
 
-    /* #header .container,
-    .carousel-container {
-        max-width: 400px;
-    } */
+    .arrow-up {
+        right: 30px;
+    }
 
     #header {
         left: 0;
@@ -67,6 +61,12 @@
         padding: 10px;
     }
 
+    .banner .earning-steps h4::after {
+        width: 100%;
+        bottom: 20px;
+        inset-inline-start: 0;
+    }
+
     .banner .images-banner {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -100,7 +100,9 @@
     }
 
     .feedback .feedback-title h2::after {
-        width: 120%;
+        width: 100%;
+        inset-inline-start: 0;
+        bottom: 20px;
     }
 
     #cta {
@@ -130,6 +132,32 @@
     #cta .container>img {
         display: none;
     }
+
+    #cta .container .cta-description div {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #footer .main-footer .container {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #footer .main-footer .container .items {
+        flex-direction: row;
+    }
+
+    #footer .main-footer .container .items div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* #footer .main-footer .container .items div img {
+        width: 50px;
+        height: 50px;
+    } */
 }
 
 /* @media (min-width: 992px) {
