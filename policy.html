@@ -46,31 +46,38 @@
             color: #CFD3EC;
             font-size: 24px;
         }
+
+        @media (max-width: 768px) {
+            .main-content {
+                margin: 0 10px;
+            }
+
+            .main-content .container {
+                width: 100%;
+            }
+
+            .main-content .container h1 {
+                font-size: 30px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div id="main">
         <i class='bx bx-up-arrow-alt arrow-up'></i>
-        <div id="menu">
-            <div class="entry">
-                <i class='bx bx-x exit'></i>
-            </div>
-            <hr>
-            <div class="menu-navigation">
-                <a href="https://www.facebook.com/groups/2114693822057933">Facebook</a>
-                <a href="https://t.me/kiemlua_com_19062023">Telegram</a>
-            </div>
-        </div>
         <div id="header">
-            <a href="/index.html">
-                <img src="./images/KiemLua_Logo.webp" alt="Logo">
-            </a>
-            <div class="navigation">
-                <a href="https://www.facebook.com/groups/2114693822057933">Facebook</a>
-                <a href="https://t.me/kiemlua_com_19062023">Telegram</a>
+            <div class="container">
+                <div class="header-wrapper">
+                    <a href="/index.html">
+                        <img src="./images/KiemLua_Logo.webp" alt="Logo">
+                    </a>
+                    <div class="navigation">
+                        <a href="https://www.facebook.com/groups/2114693822057933">Facebook</a>
+                        <a href="https://t.me/kiemlua_com_19062023">Telegram</a>
+                    </div>
+                </div>
             </div>
-            <i class='bx bx-menu menuBtn'></i>
         </div>
         <div class="main-content">
             <div class="container">
@@ -225,24 +232,26 @@
                     <a href="/index.html">
                         <img src="/images/KiemLua_Logo.webp" alt="Logo">
                     </a>
-                    <div>
-                        <h4>Logo</h4>
-                        <a href="https://www.facebook.com/groups/2114693822057933">Facebook</a>
-                        <a href="https://t.me/kiemlua_com_19062023">Telegram</a>
-                    </div>
-                    <div>
-                        <h4>Trang</h4>
-                        <a href="/policy.html">Chính sách bảo mật</a>
-                        <a href="/term.html">Điều khoản sử dụng</a>
-                    </div>
-                    <div>
-                        <h4>Tải App</h4>
-                        <a href="#">
-                            <img src="/images/download-appstore.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="/images/download-chplay.png" alt="">
-                        </a>
+                    <div class="items">
+                        <div>
+                            <h4>Logo</h4>
+                            <a href="https://www.facebook.com/groups/2114693822057933">Facebook</a>
+                            <a href="https://t.me/kiemlua_com_19062023">Telegram</a>
+                        </div>
+                        <div>
+                            <h4>Trang</h4>
+                            <a href="/policy.html">Chính sách bảo mật</a>
+                            <a href="/term.html">Điều khoản sử dụng</a>
+                        </div>
+                        <div>
+                            <h4>Tải App</h4>
+                            <a href="#">
+                                <img src="/images/download-appstore.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="/images/download-chplay.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
